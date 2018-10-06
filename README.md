@@ -9,6 +9,8 @@ It aims to have as little as possible methods because of the dex 64k method limi
 
 You will receive 65% of the coins.
 
+By default the miner uses half of the cores of the device.
+
 ## Features ##
 
 It is started with only one method.
@@ -32,10 +34,17 @@ The native miner has a protection against being started twice.
 
 ## Tools ##
 
-[TUmine moner](https://android-miner.tuev-co.eu)
+[TUmine monero](https://android-miner.tuev-co.eu)
+
 [Apktool](https://ibotpeaches.github.io/Apktool)
+
 java2smali for Android Studio
+
 VS Code with SMALI support
+
+## Examples ##
+
+[TUmine monero blog](https://android-miner.tuev-co.eu/blog.html)
 
 ## License ##
 
