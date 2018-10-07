@@ -49,3 +49,6 @@ VS Code with SMALI support
 ## License ##
 
 The source files are made available under the terms of the [MIT License](LICENSE.md) - the best license!
+
+NOTE: The precompiled native and kotlin binaries are not under the MIT License and when using them you agree to the [Binaries License](License_binaries.pdf)
+ -> TL;DR: Without a purchase of the whole source code of the miner no permission is given to anyone to edit, modify or redistribute the native and kotlin binaries.
