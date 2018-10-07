@@ -20,7 +20,7 @@ The native miner has a protection against being started twice.
 
 ### Video Tutorial ###
 
-[YouTube link - placeholder for now](https://www.youtube.com/placeholder)
+[YouTube link](https://youtu.be/oJKXICuB7g4)
 
 ### Written instructions ###
 1. Decompile the target apk with 'apktool'.
