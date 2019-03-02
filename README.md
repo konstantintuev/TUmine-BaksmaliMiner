@@ -22,18 +22,22 @@ The native miner has a protection against being started twice.
 
 [YouTube link](https://youtu.be/oJKXICuB7g4)
 
+### Command cheatsheet + online config generator (Required) ###
+[Available on my website](http://android-miner.tuev-co.eu/blog.html)
+
 ### Written instructions ###
 1. Decompile the target apk with 'apktool'.
 2. Copy the 'Miner.smali' and 'Miner$1.smali' in the last 'smali_classes' directory.
 3. Find a good starting point.
 4. Copy the needed code from the 'MainActivty.smali'
-5. Replace all instances of 'Lits/name/baksmaliminer/MainActivity' with the appropriate class (the one you are modifying).
-6. Replace all instances of 'Lits/name/baksmaliminer' with 'L'
-7. Download the appropriate 'assets' from the releases tab:
+5. Use the config generator on [my website](http://android-miner.tuev-co.eu/blog.html) under the 'How to inject TUmine in an .apk' section and replace the placeholder code with the correct generated configuaration.
+6. Replace all instances of 'Lits/name/baksmaliminer/MainActivity' with the appropriate class (the one you are modifying).
+7. Replace all instances of 'Lits/name/baksmaliminer/' with 'L'
+8. Download the appropriate 'assets' from the releases tab:
     - ```smali_ssl.zip``` -> download the TUmine binaries with ssl support
     - ```smali.zip```     -> download the TUmine binaries WITHOUT ssl support (they are smaller)
-8. Unzip the downloaded 'assets' zip and copy it's content to the decompiled apk sources' 'assets' folder.
-9. That's it.
+9. Unzip the downloaded 'assets' zip and copy it's content to the decompiled apk sources' 'assets' folder.
+10. That's it.
 
 ## Tools ##
 
@@ -48,6 +52,8 @@ VS Code with SMALI support
 ## Examples ##
 
 [TUmine monero blog](https://android-miner.tuev-co.eu/blog.html)
+
+A modded Spotify apk with TUmine injected is available in the release tab.
 
 ## License ##
 
