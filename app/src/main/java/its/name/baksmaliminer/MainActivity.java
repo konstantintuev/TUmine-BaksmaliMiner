@@ -2,7 +2,6 @@ package its.name.baksmaliminer;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.os.Handler;
 
 public class MainActivity extends Activity {
 
